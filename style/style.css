@@ -1,0 +1,54 @@
+body{
+     background-color: rgb(6, 6, 24);
+     font-family:Arial ;
+    }
+    
+
+    form{
+      color: #fff;
+       border: rgb(88, 82, 151) solid 2px;
+       border-radius: 10px;
+       width: 450px;
+       height: 500px;
+       margin: 50 auto;
+    }
+
+    h2{
+        color: #fff;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        }
+
+        input[type="text"],[type="password"]{
+            width:300px ;
+            height:60px ; 
+            margin-left: 50px;
+            border: 1px solid rgb(88, 82, 151);
+            border-radius: 10px;
+            outline: none;
+        }
+
+        input[type="checkbox"]{
+            margin: 12px 0 20px 80px;
+        }
+
+         input[type="checkbox"]:after{
+           
+           color: #fff;
+           line-height: 1;
+           position: absolute;
+           left: 560px;
+                }
+
+        input[type="submit"]{
+            width:150px ;
+            height:60px ;
+            margin-left: 150px;
+            border: 1px solid rgb(88, 82, 151);
+            border-radius: 10px;
+            color:rgb(88, 82, 151) ;
+            font-size: 30px;
+            outline: none;
+        }
+

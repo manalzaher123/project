@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Web Sits Design</title>
+</head>
+
+<body>
+   <script>
+       function validateForm(){
+        var x= document.forms["login"]["name"].value;
+        var y= document.forms["login"]["password"].value;
+        
+       }
+        
+   </script>
+    
+        <center>
+            <form name="login" action="index.html" onsubmit="return validateForm()" method="GET">
+                <h2>Login</h2>
+                <input type="text" placeholder="Your Name" name="name">
+                  <br><br>
+                <input type="password" placeholder="password" name="password">
+                <br><br>
+                <input type="checkbox"  name="checkbox" id="remember">  Remember me 
+                <br><br>
+                <input type="submit"  name="button" value="Submit">
+            </form>
+        </center>
+      
+  
+</body>
+</html>
